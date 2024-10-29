@@ -150,8 +150,8 @@
 } */
 
 .content-container {
-    margin-left: 30%; 
-    margin-right: 30%; 
+    margin-left: 27%; 
+    margin-right: 27%; 
 }
 
 h1 {
@@ -253,7 +253,7 @@ embed{
 .side {
     position: fixed;
     top: 60px;
-    left: 50px; 
+    left: 30px; 
     width: 250px;
     min-height: 55%;
     background-color: #ffffff00; 
@@ -274,8 +274,8 @@ embed{
 .drawer {
     position: fixed;
     top: 0;
-    right: -380px; 
-    width: 450px;
+    right: -20%; 
+    width: 27%;
     height: 100%;
     background-color: var(--white-color); 
     color: white;
