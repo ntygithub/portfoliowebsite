@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="362.835" height="272.126" viewBox="0 0 362.835 272.126">
+<defs>
+<mask id="mask_0" x="36.20592" y="220.92914" width="120.30835" height="13.010712" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="11.95517" font-family="LMSans10" font-weight="bold"><tspan y="-41.637" x="36.118 47.810159 54.086626 58.91651 65.62336 75.05599 84.5484 87.608928 93.58651 103.951648 110.65849 113.71902 119.99548 131.08988 139.49436 142.55487 149.26172">MathsOlympiadClub</tspan></text>
+</mask>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,36.118,230.48905)" d="M0-2.45084V8.56H119.85211V-2.45084ZM119.85211 8.56"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.91994419,-.91994419,-.91994419,-.91994419,96.04406,319.4289)" d="M0 0H100V100H0Z"/>
+</clipPath>
+</defs>
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0H362.835V272.126H0Z" fill="#fafafa"/>
+<path transform="matrix(1,0,0,-1,0,272.126)" d="M0 0V413.86375H362.8394V0ZM362.8394 413.86375" fill="#fafafa"/>
+<path transform="matrix(1,0,0,-1,0,266.34803)" d="M0 122.4575V299.34428H362.8394V122.4575ZM362.8394 299.34428" fill="#2f50bf"/>
+<text fill="#fafafa" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="17.21544" font-family="LMSans10" font-weight="bold"><tspan y="-167.331" x="36.118 46.12017 54.91726 62.182176 69.44709 78.91558 94.89151 104.36">Lesson13</tspan></text>
+<text fill="#fafafa" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="9.96264" font-family="LMSans10"><tspan y="-141.826" x="36.118 39.525224 44.317255 49.467939 54.61862 59.59994 70.827838 74.643527 78.240039 83.390727 86.29483">randomstuff</tspan></text>
+<text fill="#333333" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="7.97011" font-family="LMSans8"><tspan y="-75.062" x="36.118 41.521738 45.897329 50.129457 54.505048 57.748884 63.630826 67.86295">August23</tspan></text>
+<text fill="#333333" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="5.97758" font-family="LMSans8" font-style="italic"><tspan y="-77.874" x="72.095 74.26486">rd</tspan></text>
+<text fill="#333333" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="7.97011" font-family="LMSans8"><tspan y="-75.062" x="78.535 83.7076 87.939739 92.17187 96.404">,2024</tspan></text>
+<text fill="#333333" xml:space="preserve" transform="matrix(1 0 -0 1 0 272.12605)" font-size="7.97011" font-family="LMSans8"><tspan y="-62.758" x="36.118 41.760839 46.13643 49.196954 53.42908 57.804674 64.53145 70.50903 74.27093 79.44353 85.42111 87.43755 91.19945 95.575038 99.80717 101.82361 105.88837 111.95362 117.365329 121.74091 125.50281 129.8784 135.05101 139.98451 144.3601 148.4966 153.33446 161.09735 165.16211 169.5377">AntonyHe,NicholasChen,YukiWang</tspan></text>
+<g mask="url(#mask_0)">
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+<image x="36" y="221" width="120" height="12" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAHgAAAAMCAYAAACp13kFAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAACFklEQVR4nO3Y/0cDcRzH8Vttra32pa1tbW1rrVar1WpZpe+lL/pe
+IiIiIiIiIiIiIiIiIiIiIiIi6k97dZ9rd659Zrdbn0pdP9xf8PB63r2Pi8+/gukz
+94LmmSc0TT0iNvmAxvE7NIzdIjp6g/rhK9QNXSIycI7a/jPU9J4i3H2M6q4jhDoO
+UNW+j2ByD4HEDvyt26hs2YKvaQPe2Do80VV46lfgrluGq2YR5eEFOELTcAQnUBYY
+g803CJu3D9aKbpS6kigtT8DsiMFkj8Jki8BoqYKxxA+DyQ19sRP6IjsK9GboCo3Q
+6fTgOO5vPt+CO3JN4/acZMX1NW9SuK7IEoVr9w9LuBZPJ4VbbA1TuIUGi4TLcbqf
+R/gVwHLciXsKNzJ4QeGGOg8l3EDbLoVb0bhG4Tqr5yhcsloRt8QZf8flVyviFpm9
+NK6w2j+OywyYx43PPqvPMg+sNssCcJYsE+D0LBNgTWWZKbCaLCu8c3PNshw31yzL
+cTWxXCbAeWRZjvuZLMtxpSzLcDWdZSbAuWSZB1abZQE4S5YFYJVZJsCayvKngb84
+y0qnUKYsK51Cmltu3sAKWVY6hTJlOZ9TKFOWNXsKMQPmk8ziFBKSnPbOFVbL4hRK
+JVmz79y8gb/xD5XSKZQpy5o+hZgAp9ZLcMX1ElyyXvGDigATXLJe8YOKAAu4/Hol
+XH691AcVv14WH1T/uB+fNxl3yIFvJJTWAAAAAElFTkSuQmCC"/>
+</g>
+</g>
+</g>
+</svg>
