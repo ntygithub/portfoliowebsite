@@ -15,12 +15,12 @@ notabs[2] = ["nice","ok","cool","nic3e","o4k"];
 textnow[0] = "Project Projector";
 textnow[1] = "Penguin game";
 textnow[2] = "Robot simulator";
-textnow[3] = "3D view";
+textnow[3] = "Auction house";
 textnow[4] = "Java scripting";
 textnow[5] = "Olympiad";
 textnow[6] = "Collator";
 textnow[7] = "Mobile app";
-textnow[8] = "555455hing";
+textnow[8] = "This website";
 textnow[9] = "44444thing";
 textnow[10] = "555455hing";
 
@@ -37,34 +37,37 @@ window.addEventListener('scroll', function() {
     if(scrollPercent<10){
         whichcontent = 1;
     }
-    else if(scrollPercent<24){
+    else if(scrollPercent<20){
         whichcontent = 2;
     }
-    else if(scrollPercent<36){
+    else if(scrollPercent<30){
         whichcontent = 3;
     }
-    else if(scrollPercent<49){
+    else if(scrollPercent<42){
         whichcontent = 4;
     }
-    else if(scrollPercent<62){
+    else if(scrollPercent<55){
         whichcontent = 5;
     }
-    else if(scrollPercent<77){
+    else if(scrollPercent<70){
         whichcontent = 6;
     }
-    else if(scrollPercent<90){
+    else if(scrollPercent<80){
         whichcontent = 7;
     }
-    else if(scrollPercent<100){
+    else if(scrollPercent<95){
         whichcontent = 8;
+    }
+    else if(scrollPercent<100){
+        whichcontent = 9;
     }
 
     if(whichcontent==1&&previouscontent!=1){
         openCountry(event, 's1.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's1.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's1.2')">tab 3</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's1.3')">tab 2</buttonr>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's1.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's1.3')">tab 3</buttonr>
         `
         
         document.getElementById('hahaha').innerHTML =`
@@ -72,11 +75,12 @@ window.addEventListener('scroll', function() {
                 <p><pga>Project Projector</pga></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pg>Collator</pg></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>  
+                <p><pg>This website</pg></p>    
         `
         previouscontent =1;
     }
@@ -84,8 +88,8 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's2.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's2.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's2.2')">tasdsd</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's2.3')">tabdsasdasd 2</buttonr>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's2.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's2.3')">tab 3</buttonr>
         `
         
         document.getElementById('hahaha').innerHTML =`
@@ -93,53 +97,76 @@ window.addEventListener('scroll', function() {
                 <p><pg>Project Projector</pg></p>
                 <p><pga>Pengiun game</pga></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pg>Collator</pg></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>   
+                <p><pg>This website</pg></p>   
         `
         previouscontent =2;
     }
     else if(whichcontent==3&&previouscontent!=3){
+        openCountry(event, 's3.1');
+        document.getElementById('contaa-now').innerHTML = `
+            <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's3.1')" >Story</buttonl>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's3.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's3.3')">tab 3</buttonr>
+        `
+
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
                 <p><pg>Project Projector</pg></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pga>Robot simulator</pga></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pg>Collator</pg></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>     
+                <p><pg>This website</pg></p> 
         `
         previouscontent =3;
     }
     else if(whichcontent==4&&previouscontent!=4){
+        openCountry(event, 's4.1');
+        document.getElementById('contaa-now').innerHTML = `
+            <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's4.1')" >Story</buttonl>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's4.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's4.3')">tab 3</buttonr>
+        `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
                 <p><pg>Project Projector</pg></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pga>3D view</pga></p>
+                <p><pga>Auction house</pga></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pg>Collator</pg></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>    
+                <p><pg>This website</pg></p>  
         `
         previouscontent =4;
     }
     else if(whichcontent==5&&previouscontent!=5){
+        openCountry(event, 's5.1');
+        document.getElementById('contaa-now').innerHTML = `
+            <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's5.1')" >Story</buttonl>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's5.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's5.3')">tab 3</buttonr>
+        `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
                 <p><pg>Project Projector</pg></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pga>Java scripting</pga></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pg>Collator</pg></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>   
+                <p><pg>This website</pg></p>   
         `
         previouscontent =5;
     }
@@ -147,49 +174,86 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's6.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's6.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's6.2')">tasdsd</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's6.3')">tabdsasdasd 2</buttonr>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's6.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's6.3')">tab 3</buttonr>
         `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
                 <p><pg>Project Projector</pg></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pga>Maths Olympiad</pga></p>
                 <p><pg>Collator</pg></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>   
+                <p><pg>This website</pg></p>   
         `
         previouscontent =6;
     }
     else if(whichcontent==7&&previouscontent!=7){
+        openCountry(event, 's7.1');
+        document.getElementById('contaa-now').innerHTML = `
+            <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's7.1')" >Story</buttonl>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's7.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's7.3')">tab 3</buttonr>
+        `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
                 <p><pg>Project Projector</pg></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pga>Collator</pga></p>
-                <p><pg>Mobile app</pg></p>      
+                <p><pg>Mobile app</pg></p>
+                <p><pg>This website</pg></p>      
         `
         previouscontent =7;
     }
     else if(whichcontent==8&&previouscontent!=8){
+        openCountry(event, 's8.1');
+        document.getElementById('contaa-now').innerHTML = `
+            <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's8.1')" >Story</buttonl>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's8.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's8.3')">tab 3</buttonr>
+        `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
                 <p><pg>Project Projector</pg></p>
                 <p><pg>Pengiun game</pg></p>
                 <p><pg>Robot simulator</pg></p>
-                <p><pg>3D view</pg></p>
+                <p><pg>Auction house</pg></p>
                 <p><pg>Java scripting</pg></p>
                 <p><pg>Maths Olympiad</pg></p>
                 <p><pg>Collator</pg></p>
-                <p><pga>Mobile app</pga></p>      
+                <p><pga>Mobile app</pga></p>
+                <p><pg>This website</pg></p>
         `
         previouscontent =8;
+    }
+
+    else if(whichcontent==9&&previouscontent!=9){
+        openCountry(event, 's9.1');
+        document.getElementById('contaa-now').innerHTML = `
+            <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's9.1')" >Story</buttonl>
+            <buttonl class = "tablinks2" onclick="openCountry(event, 's9.2')">tab 2</buttonl>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's9.3')">tab 3</buttonr>
+        `
+        document.getElementById('hahaha').innerHTML =`
+                <h3><pg2>Content</pg2></h3>
+                <p><pg>Project Projector</pg></p>
+                <p><pg>Pengiun game</pg></p>
+                <p><pg>Robot simulator</pg></p>
+                <p><pg>Auction house</pg></p>
+                <p><pg>Java scripting</pg></p>
+                <p><pg>Maths Olympiad</pg></p>
+                <p><pg>Collator</pg></p>
+                <p><pg>Mobile app</pg></p>
+                <p><pga>This website</pga></p>
+        `
+        previouscontent =9;
     }
 
     document.getElementById('title-now').innerText = textnow[whichcontent-1];

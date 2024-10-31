@@ -124,7 +124,7 @@
     padding: 0;
     border: 1px solid var(--blue-color);
     /* border-radius: 5px; */
-    background-color: #ffffff0c;
+    background-color: #ffffff00;
 }
 
 .output-line2 {
@@ -134,7 +134,7 @@
     padding-top: 0px;
     border: 1px solid var(--blue-color);
     /* border-radius: 5px; */
-    background-color: #b4bdc20c;
+    background-color: #b4bdc200;
 }
 
 .output-line:hover {
