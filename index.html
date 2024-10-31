@@ -65,7 +65,7 @@
                 <p  class="formatted-text">
                     This was software for a science fair project written in python during the 10th grade. The app allows a camera to act as an overhead projector by applying a warping to either a selected or auto-detected area.
 
-                    It has a basic GUI to allow changing some settings and <mark class="highlighted" onmouseover="showtooltipandset('<img src=\'static/img/into.png\' alt=\'testimg\' class=\'fill\'>')">to define an area to warp/ project by 4 corner points.</mark>
+                    It has a basic GUI to allow changing some settings and <mark class="highlighted" onmouseover="showtooltipandset('<img src=\'static/img/into.png\' alt=\'testimg\' class=\'fill\'>')">to define an area to warp/ project by 4 corner points using openCV</mark>
 
                     Contributions and credit
 
@@ -85,7 +85,7 @@
 
                         Digging down the rabbit hole of programming, I found out about more concepts like optimisation (which I did done of), and naming conventions (which I broke like 1000 of), but this set the ceiling even higher for things to learn.
 
-                        We did NOT win anything in this science fair, yet I always remember this as one failure I'm proud of.
+                        We did not win anything in this science fair, yet I always remember this as one "failure" I'm proud of.
                     </p>
                 </div>
             </div>
@@ -96,6 +96,9 @@
                     This project was something that occured completely on a whim, but I'm very glad happened because it taught me that taking risks lead to good outcomes (sometimes). 
                     
                     Going from literally zero coding knowledge to making a somewhat working program gave a great boost of confidence and allowed me to take on harder challenges in the future. 
+
+                    GitHub link 
+                    https://github.com/ntygithub/uploads/tree/main/Project%20Projector
                 </p>
                 </div>
             </div>
@@ -150,6 +153,8 @@
                             I worked on this game during the holidays when I had nothing else to do to pass time, but it was also a great opportunity to learn new things and to scratch a creative itch I had for a while.
 
                             In a sense, it wansn't the intention to create something novel but to try mimic great works in the past, like how artists study the masters.
+
+                            
                         </p>
                     </div>
                 </div>
@@ -161,7 +166,8 @@
 
                             The beginning was simply trying to make an object that could move with WASD.
 
-                            Link to GitHub
+                            GitHub link
+                            https://github.com/ntygithub/uploads/tree/main/Penguin%20game/Assets/scenes/Codes
                         </p>
                     </div>
                 </div>
@@ -230,6 +236,9 @@
                             To closely mimic a real experience, <mark class="highlighted" onmouseover="showtooltipandset('<img src=\'static/img/vexboxcontroller.png\' alt=\'testimg\' class=\'fill\'>')">a game controller which is similar to the VEX one is used</mark> to drive the robot and we use the same type of drive as in our actual one.
 
                             Physics and whatnot is tweaked to feel as close as possible to the real thing
+
+                            GitHub link 
+                            https://github.com/ntygithub/uploads/tree/main/VEX%20simulator/Assets/thecode
                         </p>
                     </div>
                 </div>
@@ -255,23 +264,31 @@
                 </div>
                 <div id="m4.1" class="4tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">During the holidays, I revisited an old game me and my friends used to play. One important part of the game is the "auction house" which mimics something like ebay. This was a good method to make money in game by buying underpriced items and reselling them, but it is insanely tedious and time-intensive which this program aimed to streamline. The auction house itself is given by Hypixel's api and so information was taken this way. This allowed simple profit calculations to be made if(priceworth) to notify me. The second way is for ongoing bids to see if the bidding price is significantly less than its value.
+                    <p  class="formatted-text">This is a python script which searches through a game auction house and finds items based on parameters like the expected profit after resale, price compared to the cheapest option, and  value of the item.
+
+                        Results are displayed in a scrolling feed, and it is set up to make a ping sound when there is a good deal or to send a notification to my phone.
+                        
+                        It gets auctions from the Hypixel API and can be configured to look at "buy it now items" or auctions ending soon or both.
                     
-                    Contributions and credit
+                        Contributions and credit
                     </p>
                     </div>
                 </div>
     
                 <div id="m4.2" class="4tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">
+                    <p  class="formatted-text">It was through this project that I actually learned what an "API" was and how to use it and handle data.
+
+                        Even though this was only inside a video game, I feel that there are large similarities to real life auction sites like eBay (which the game's was based off of) and learning how to utilise APIs in general was a useful tool.
+                        
                     </p>
                     </div>
                 </div>
     
                 <div id="m4.3" class="4tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">
+                    <p  class="formatted-text">An objective in the game is to make as much money as possible and reselling undervalued items for a profit was a very efficient way to do so. I sought to automate the process of manually looking through auctions and judging their profit margins.
+
                     </p>
                     </div>
                 </div>
@@ -279,6 +296,8 @@
                 <div id="m4.4" class="4tabcontent">
                     <div class = "mbox">
                     <p  class="formatted-text">
+                        GitHub link 
+                        https://github.com/ntygithub/uploads/tree/main/Auction%20house%20scouter
                     </p>
                     </div>
                 </div>
@@ -324,6 +343,8 @@
                 <div id="m5.3" class="5tabcontent">
                     <div class = "mbox">
                     <p  class="formatted-text">
+                        GitHub link 
+                        https://github.com/ntygithub/uploads/tree/main/Minecraft%20mod/src/main/java/com/example/ntymod
                     </p>
                     </div>
                 </div>
@@ -391,8 +412,10 @@
                 </div>
                 <div id="m7.1" class="7tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">This was another project that I had the idea of doing a long time ago but was never to due to skill issues. I thought it would be good to revisit this old idea and I remembered the tremendously complicated thoughts I had back then and saw that it didn't feel so complicated anymore
-                    
+                    <p  class="formatted-text">This is a python script that looks for questions containing keywords in Cambridge examination papers for a few subjects. At the same time, it retrieves the question and part numbers using regex matching and finds the corresponding answer in an answer paper.
+
+                        It displays the question and answer in a feed like shown above.
+                        
                         Contributions and credit
                     </p>
                     </div>
@@ -400,14 +423,21 @@
     
                 <div id="m7.2" class="7tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">
+                    <p  class="formatted-text">This is yet another project that I had the idea of doing in the past but still had no clue how to. I'm glad that with more experience behind me that I could make it work. Before I remembered myself using adobe acrobat and opening many papers at once to look for certain terms but doing it in this new way is much less burdensome.
                     </p>
                     </div>
                 </div>
     
                 <div id="m7.3" class="7tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">
+                    <p  class="formatted-text">Looking at definition questions in this way was particularly useful to studying terms and could be done by searching for phrases like "define" or "explain what is meant by".
+
+                        I feel also that I worked on this while studying for school exams to take a break from memorising content while still doing something that "felt productive".
+                        
+                        Either way it was a good learning experience whether for my school subjects or for practice coding something.
+                        
+                        GitHub link 
+                        https://github.com/ntygithub/uploads/tree/main/Mark%20scheme%20collator
                     </p>
                     </div>
                 </div>
@@ -416,9 +446,9 @@
         <div class="output-line2" style="margin-bottom: 0px;">
             <h2>Flutter apps</h2>
             <div class="output-line" data-action="openApps">
-                <div class ="fill" style="position:relative;">
-                    <img src="static/img/stickeynnotes.gif" alt="testimg" class="gifcover" style="position:absolute;">
-                    <img src="static/img/coin.gif" alt="testimg" class="fill" >
+                <div style="display: flex; align-items: center;">
+                    <img src="static/img/stickeynnotes.gif" alt="testimg" style="width:50%" >
+                    <img src="static/img/coin.gif" alt="testimg" style="width:50%" >
                 </div>    
                 
             </div>
@@ -430,8 +460,7 @@
                 </div>
                 <div id="m8.1" class="8tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">These few apps have basic functions: stickey notes, writing with a stylus, random number generator, and a school timetable.
-                        Hardcoded <mark class="highlighted" onmouseover="showtooltipandset('<img src=\'static/img/timetable.jpg\' alt=\'testimg\' class=\'fill\'>')">a timetable because I always occasionally forget it somehow</mark>
+                    <p  class="formatted-text">These few apps have basic functions: stickey notes, writing with a stylus, random number generator, <mark class="highlighted" onmouseover="showtooltipandset('<img src=\'static/img/timetable.jpg\' alt=\'testimg\' class=\'fill\'>')">and a school timetable</mark> because I always occasionally forget it somehow
                         
                         Contributions and credit
                     </p>
@@ -440,14 +469,19 @@
     
                 <div id="m8.2" class="8tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">
+                    <p  class="formatted-text">Making an app was another daunting task at first due to lack of experience but like my other "first time" projects, finishing it gave me a little more confidence that I could be able to make something similar for a future project and it becomes "another tool in the toolbox"
                     </p>
                     </div>
                 </div>
     
                 <div id="m8.3" class="8tabcontent">
                     <div class = "mbox">
-                    <p  class="formatted-text">
+                    <p  class="formatted-text">I found myself occasionally forgetting when my classes started and ended for some reason and usually just followed someone else when they left. Most people would probably tell me "just memorise your timetable" but that wasn't satisfying to me and so I thought I would build a page that tells me when my previous class finished, current class is (incase I can't tell the difference between physics and biology), and next class is. This was good to just practice using the language and coding the formatting.
+
+                        The coin toss app actually has come in handy when my friends and I can't decide where to eat lunch, so instead of googling "coin toss" I can open the app instead and do the same thing.
+                        
+                        GitHub link 
+                        https://github.com/ntygithub/uploads/tree/main/Flutter%20apps/lib
                     </p>
                     </div>
                 </div>
@@ -518,13 +552,12 @@
 
             <div id="s3.1" class="tabcontent2">
                 <p class="formatted-text">
-                    This game doesnt have a real name (?) I chose a penguin as the character because I like penguins.
+                    In my introduction to VEX robotics, I learned something - I had no idea how to drive. I wanted to practice but we were limited by the fact that we only have 1 robot and the practice field is reasonably far from where we live.
 
-                    I had many grand ideas of the lore, music, more game mechanics like crafting, scavenging, better enemies.
+                    My solution to this was just to download a driving simulator someone else made and use it "this is probably something people make", I thought. I didn't end up finding anything usable so decided to try make my own.
 
-                    I even planned a really tragic animated intro where the pengiun's siblings get kidnapped by some hunters and it chases after them.
-
-                    But allas, the holidays are only so long so I said goodbye to those ideas.
+                    The simulator is made in the Unity engine I learned how to use before and works using a game controller to drive the robot around an accurate field. The robot also interacts with Triballs to score them in a goal.
+                        
                 </p>
             </div>
 
@@ -540,18 +573,16 @@
 
             <div id="s4.1" class="tabcontent2">
                 <p class="formatted-text">
-                    This game doesnt have a real name (?) I chose a penguin as the character because I like penguins.
-
-                    I had many grand ideas of the lore, music, more game mechanics like crafting, scavenging, better enemies.
-
-                    I even planned a really tragic animated intro where the pengiun's siblings get kidnapped by some hunters and it chases after them.
-
-                    But allas, the holidays are only so long so I said goodbye to those ideas.
+                    During the holidays, I revisited an old game me and my friends used to play. One important part of the game is the "auction house" which mimics something like ebay. This was a good method to make money in game by buying underpriced items and reselling them, but it is insanely tedious and time-intensive which this program aimed to streamline. The auction house itself is given by Hypixel's api and so information was taken this way. This allowed simple profit calculations to be made if(priceworth) to notify me. The second way is for ongoing bids to see if the bidding price is significantly less than its value.
+                    
                 </p>
             </div>
 
             <div id="s4.2" class="tabcontent2">
-                <p  class="formatted-text"> 
+                <img src="static/img/skypeixl.svg" alt="testimg" class="fill" >
+                <p  class="formatted-text">
+                    
+                    These are "ending soon" auctions
                 </p>
             </div>
 
@@ -562,13 +593,13 @@
 
             <div id="s5.1" class="tabcontent2">
                 <p class="formatted-text">
-                    This game doesnt have a real name (?) I chose a penguin as the character because I like penguins.
-
-                    I had many grand ideas of the lore, music, more game mechanics like crafting, scavenging, better enemies.
-
-                    I even planned a really tragic animated intro where the pengiun's siblings get kidnapped by some hunters and it chases after them.
-
-                    But allas, the holidays are only so long so I said goodbye to those ideas.
+                    During the holidays, I revisited an old game me and my friends used to play. [something something] being able to create "mods" was something I always wanted to do, but having no clue how to do so. After gaining more confidence in my coding abilities, I tried to make one myself. 
+                        
+                    This was written in Java. One "quality of life" improvement I wanted was while selecting a team to beat the dungeon. This uses apis provided by Hypixel to get information about players who join, looking at stuff like their equiptment, stats, and achievements to determine who to allow join. 
+                    Understanding how apis worked previously helped make this process easier.
+                        
+                    This in general also taught me a lot about reading source code and documentation to get the answers I needed since this was a non-standard thing to be making. [I believe I was the first person to implement a vertical hotbar in that version of Minecraft. 
+                    
                 </p>
             </div>
 
@@ -586,7 +617,8 @@
                 <div class="output-line" data-action="openModal">
                     <img src="static/img/diagnosproblems111.svg" alt="testimg" class="fill" >
                 </div>
-                <p  class="formatted-text">Loremt. Fusce iutrum nostra facilisi auctor imperdiet proin non netus habitasse. Iaculis non euismod ac nascetur fringilla. Semper sem taciti aptent habitasse senectus posuere magnis. Et suspendisse tortor tellus; etiam tristique luctus. Ultricies faucibus accumsan cursus penatibus turpis? Non orci sagittis vivamus, porttitor platea blandit ullamcorper pulvinar. Varius eleifend enim duis; libero lobortis hac non integer.
+                <p  class="formatted-text">
+
                 </p>
             </div>
 
@@ -594,7 +626,8 @@
                 <div class="output-line" data-action="openModal">
                     <img src="static/img/diagnosproblem2222221.svg" alt="testimg" class="fill" >
                 </div>
-                <p  class="formatted-text">Loasdasdasdasdasdasdasdroin non netus habitasse. Iaculis non euismod ac nascetur fringilla. ut per magna montes praesemet, consectetuer adipiscing elit. Fusce iaculis u Semper sem taciti aptent habitasse senectus posuere magnis. Et suspendisse tortor tellus; etiam tristique luctus. Ultricies faucibus accumsan cursus penatibus turpis? Non orci sagittis vivamus, porttitor platea blandit ullamcorper pulvinar. Varius eleifend enim duis; libero lobortis hac non integer.
+                <p  class="formatted-text">
+
                 </p>
             </div>
 
@@ -602,19 +635,15 @@
                 <div class="output-line" data-action="openModal">
                     <img src="static/img/33333.svg" alt="testimg" class="fill" >
                 </div>
-                <p  class="formatted-text">Lorem ip2222222222222222222222 22222ddddddddtetuer adipiscing elit. Fusce iaculist per magna montes praesent litora leo. Rutrumnt litora leo. Rutrum nostra facilisi auctor imperdiet proin non netus habitasse. Iaculis non euismod ac nascetur fringilla. Semper sem taciti aptent habitasse senectus posuere magnis. Et suspendisse tortor tellus; etiam tristique luctus. Ultricies faucibus accumsan cursus penatibus turpis? Non orci sagittis vivamus, porttitor platea blandit ullamcorper pulvinar. Varius eleifend enim duis; libero lobortis hac non integer.
+                <p  class="formatted-text">
+
                 </p>
             </div>
 
             <div id="s7.1" class="tabcontent2">
                 <p class="formatted-text">
-                    This game doesnt have a real name (?) I chose a penguin as the character because I like penguins.
+                    This was another project that I had the idea of doing a long time ago but was never to due to skill issues. I thought it would be good to revisit this old idea and I remembered the tremendously complicated thoughts I had back then and saw that it didn't feel so complicated anymore
 
-                    I had many grand ideas of the lore, music, more game mechanics like crafting, scavenging, better enemies.
-
-                    I even planned a really tragic animated intro where the pengiun's siblings get kidnapped by some hunters and it chases after them.
-
-                    But allas, the holidays are only so long so I said goodbye to those ideas.
                 </p>
             </div>
 
@@ -629,14 +658,10 @@
             </div>
 
             <div id="s8.1" class="tabcontent2">
+                <div class="output-line" data-action="openModal">
+                    <img src="static/img/timetable.png" alt="testimg" class="fill" >
+                </div>
                 <p class="formatted-text">
-                    This game doesnt have a real name (?) I chose a penguin as the character because I like penguins.
-
-                    I had many grand ideas of the lore, music, more game mechanics like crafting, scavenging, better enemies.
-
-                    I even planned a really tragic animated intro where the pengiun's siblings get kidnapped by some hunters and it chases after them.
-
-                    But allas, the holidays are only so long so I said goodbye to those ideas.
                 </p>
             </div>
 
@@ -652,13 +677,7 @@
 
             <div id="s9.1" class="tabcontent2">
                 <p class="formatted-text">
-                    This game doesnt have a real name (?) I chose a penguin as the character because I like penguins.
-
-                    I had many grand ideas of the lore, music, more game mechanics like crafting, scavenging, better enemies.
-
-                    I even planned a really tragic animated intro where the pengiun's siblings get kidnapped by some hunters and it chases after them.
-
-                    But allas, the holidays are only so long so I said goodbye to those ideas.
+                    This was my first attempt at designing a website, and although there could definitely be improvements, I'm mostly satisfied with the way it turned out. Making this website, like some of the other projects was a way to learn a new skill, and after making this, I'm a little more confident that I could assemble a similar thing in the future. I originally had the idea of making everything a little cinematic and story-like but I scrapped this idea realizing that it may not have been so appreciated by reviewers, especially in the interest of time. Regardless, making this website portfolio was very enjoyable and especially to reflect on some old projects.
                 </p>
             </div>
 
@@ -712,6 +731,9 @@
                             At the time of making these, I never really saw them as "projects" but just something I wanted to make for the sake of it. 
 
                             Some of these ideas I had long before I actually made them like the Collator and Minecraft mods so being able to revisit these with new skills was really satisfying.
+
+                            GitHub link 
+                            https://github.com/ntygithub/portfoliowebsite
                             
                         </p>
                     </div>
