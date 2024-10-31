@@ -265,9 +265,9 @@ function select(selector){
 }
 
 document.addEventListener("click", (e) => {
-    if (e.target.closest(`[data-action="openModal"]`)) {
-        openModal();
-    }
+    // if (e.target.closest(`[data-action="openModal"]`)) {
+    //     openModal();
+    // }
     if (e.target.closest(`[data-action="openVex"]`)) {
         openVex();
     }
