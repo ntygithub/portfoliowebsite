@@ -271,6 +271,24 @@ document.addEventListener("click", (e) => {
     if (e.target.closest(`[data-action="openVex"]`)) {
         openVex();
     }
+    if (e.target.closest(`[data-action="openPenguin"]`)) {
+        openPenguin();
+    }
+    if (e.target.closest(`[data-action="openApps"]`)) {
+        openApps();
+    }
+    if (e.target.closest(`[data-action="openProjector"]`)) {
+        openProjector();
+    }
+    if (e.target.closest(`[data-action="openAuction"]`)) {
+        openAuction();
+    }
+    if (e.target.closest(`[data-action="openMod"]`)) {
+        openMod();
+    }
+    if (e.target.closest(`[data-action="openCollator"]`)) {
+        openCollator();
+    }
     if (
         e.target.closest(`[data-action="closeModal"]`) ||
         e.target.classList.contains("modal-wrapper")
@@ -311,6 +329,138 @@ function openVex(){
                     </svg>
                 </button>
                     <iframe src="https://ntygithub.github.io/vexoverundersim/" style="width:100%; height: 70vh;">
+        </iframe>
+            </div>
+        </div>`;
+    select("body").insertAdjacentHTML("beforeend", modalContent);
+    select("body").style.overflow = "hidden";
+    select(".modal-wrapper").style.display = "flex";
+    setTimeout(() => {
+        select(".modal-wrapper").style.opacity = 1;
+    }, 10);
+}
+
+function openPenguin(){
+    const modalContent = `
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <button class="modal-close" data-action="closeModal">
+                    <svg viewBox="0 0 20 20" width="16" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 2 L 18 18" stroke-width="3" fill="transparent"></path>
+                        <path d="M 18 2 L 2 18" stroke-width="3" fill="transparent"></path>
+                    </svg>
+                </button>
+                    <iframe src="https://ntygithub.github.io/penguingame/" style="width:100%; height: 70vh;">
+        </iframe>
+            </div>
+        </div>`;
+    select("body").insertAdjacentHTML("beforeend", modalContent);
+    select("body").style.overflow = "hidden";
+    select(".modal-wrapper").style.display = "flex";
+    setTimeout(() => {
+        select(".modal-wrapper").style.opacity = 1;
+    }, 10);
+}
+
+function openApps(){
+    const modalContent = `
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <button class="modal-close" data-action="closeModal">
+                    <svg viewBox="0 0 20 20" width="16" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 2 L 18 18" stroke-width="3" fill="transparent"></path>
+                        <path d="M 18 2 L 2 18" stroke-width="3" fill="transparent"></path>
+                    </svg>
+                </button>
+                    <iframe src="https://ntygithub.github.io/randomapp/" style="width:100%; height: 70vh;">
+        </iframe>
+            </div>
+        </div>`;
+    select("body").insertAdjacentHTML("beforeend", modalContent);
+    select("body").style.overflow = "hidden";
+    select(".modal-wrapper").style.display = "flex";
+    setTimeout(() => {
+        select(".modal-wrapper").style.opacity = 1;
+    }, 10);
+}
+
+function openProjector(){
+    const modalContent = `
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <button class="modal-close" data-action="closeModal">
+                    <svg viewBox="0 0 20 20" width="16" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 2 L 18 18" stroke-width="3" fill="transparent"></path>
+                        <path d="M 18 2 L 2 18" stroke-width="3" fill="transparent"></path>
+                    </svg>
+                </button>
+                    <img src="static/img/descamdemo1.gif" alt="testimg" class="fill" >
+        </iframe>
+            </div>
+        </div>`;
+    select("body").insertAdjacentHTML("beforeend", modalContent);
+    select("body").style.overflow = "hidden";
+    select(".modal-wrapper").style.display = "flex";
+    setTimeout(() => {
+        select(".modal-wrapper").style.opacity = 1;
+    }, 10);
+}
+
+function openAuction(){
+    const modalContent = `
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <button class="modal-close" data-action="closeModal">
+                    <svg viewBox="0 0 20 20" width="16" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 2 L 18 18" stroke-width="3" fill="transparent"></path>
+                        <path d="M 18 2 L 2 18" stroke-width="3" fill="transparent"></path>
+                    </svg>
+                </button>
+                    <img src="static/img/scrollingfeed.gif" alt="testimg" class="fill" >
+        </iframe>
+            </div>
+        </div>`;
+    select("body").insertAdjacentHTML("beforeend", modalContent);
+    select("body").style.overflow = "hidden";
+    select(".modal-wrapper").style.display = "flex";
+    setTimeout(() => {
+        select(".modal-wrapper").style.opacity = 1;
+    }, 10);
+}
+
+function openMod(){
+    const modalContent = `
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <button class="modal-close" data-action="closeModal">
+                    <svg viewBox="0 0 20 20" width="16" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 2 L 18 18" stroke-width="3" fill="transparent"></path>
+                        <path d="M 18 2 L 2 18" stroke-width="3" fill="transparent"></path>
+                    </svg>
+                </button>
+                    <img src="static/img/skyblock.png" alt="testimg" class="fill" >
+        </iframe>
+            </div>
+        </div>`;
+    select("body").insertAdjacentHTML("beforeend", modalContent);
+    select("body").style.overflow = "hidden";
+    select(".modal-wrapper").style.display = "flex";
+    setTimeout(() => {
+        select(".modal-wrapper").style.opacity = 1;
+    }, 10);
+}
+
+function openCollator(){
+    const modalContent = `
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <button class="modal-close" data-action="closeModal">
+                    <svg viewBox="0 0 20 20" width="16" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 2 L 18 18" stroke-width="3" fill="transparent"></path>
+                        <path d="M 18 2 L 2 18" stroke-width="3" fill="transparent"></path>
+                    </svg>
+                </button>
+                    <img src="static/img/mscollator.png" alt="testimg" class="fill" >
         </iframe>
             </div>
         </div>`;
