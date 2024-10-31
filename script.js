@@ -88,8 +88,7 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's2.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's2.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's2.2')">tab 2</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's2.3')">tab 3</buttonr>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's2.2')">tab 2</buttonr>
         `
         
         document.getElementById('hahaha').innerHTML =`
@@ -213,7 +212,6 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's8.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's8.1')" >Story</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's8.2')">tab 2</buttonr>
         `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
@@ -234,8 +232,7 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's9.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's9.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's9.2')">tab 2</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's9.3')">tab 3</buttonr>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's9.2')">tab 2</buttonr>
         `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
