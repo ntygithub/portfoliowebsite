@@ -110,8 +110,7 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's3.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's3.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's3.2')">tab 2</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's3.3')">tab 3</buttonr>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's3.2')">tab 2</buttonr>
         `
 
         document.getElementById('hahaha').innerHTML =`
@@ -132,8 +131,7 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's4.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's4.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's4.2')">tab 2</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's4.3')">tab 3</buttonr>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's4.2')">tab 2</buttonr>
         `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
@@ -195,8 +193,7 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's7.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's7.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's7.2')">tab 2</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's7.3')">tab 3</buttonr>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's7.2')">tab 2</buttonr>
         `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
@@ -216,8 +213,7 @@ window.addEventListener('scroll', function() {
         openCountry(event, 's8.1');
         document.getElementById('contaa-now').innerHTML = `
             <buttonl class = "tablinksd2 active" onclick="openCountry(event, 's8.1')" >Story</buttonl>
-            <buttonl class = "tablinks2" onclick="openCountry(event, 's8.2')">tab 2</buttonl>
-            <buttonr class = "tablinks2" onclick="openCountry(event, 's8.3')">tab 3</buttonr>
+            <buttonr class = "tablinks2" onclick="openCountry(event, 's8.2')">tab 2</buttonr>
         `
         document.getElementById('hahaha').innerHTML =`
                 <h3><pg2>Content</pg2></h3>
